@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+header {
+  height: 200px;
+  background-color: #101010;
+  font-family: "Andika New Basic", sans-serif;
+}
+

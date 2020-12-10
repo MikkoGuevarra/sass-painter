@@ -4,9 +4,72 @@
   padding: 0;
 }
 
-header {
-  height: 200px;
-  background-color: #101010;
+body {
   font-family: "Andika New Basic", sans-serif;
+  font-size: 14px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  height: 100px;
+  background-color: #101010;
+}
+
+.upper-header,
+.lower-header {
+  height: 50%;
+}
+
+.upper-header {
+  text-align: right;
+  font-size: 12px;
+}
+
+.fas {
+  color: #009cff;
+}
+
+.upper-header li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.upper-header li a span {
+  color: #9d9d9d;
+  margin-left: 5px;
+}
+
+.lower-header {
+  display: flex;
+  align-items: center;
+}
+
+.lower-header li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.lower-header li a {
+  color: #fff;
+}
+
+.lower-header li a .fas {
+  color: #9d9d9d;
+}
+
+.logo {
+  margin-right: 10px;
 }
 

@@ -1,5 +1,52 @@
 header {
-    height: 200px;
+    height: 100px;
     background-color: $bgColor;
-    font-family: $fontFamily;
+}
+
+.upper-header, .lower-header {
+    height: 50%;
+}
+
+.upper-header {
+    text-align: right;
+    font-size: 12px;
+}
+
+
+.fas {
+    color: $secondaryColor;
+}
+
+
+.upper-header {
+    li {
+        display: inline-block;
+        padding: 10px;
+        a {
+            span {
+                color: $secondFontColor;
+                margin-left: 5px;
+            }
+        }
+    }
+
+}
+
+.lower-header {
+    display: flex;
+    align-items: center;
+    li {
+        display: inline-block;
+        padding: 20px;
+        a {
+            color: $fontColor;
+            .fas {
+                color: $secondFontColor;
+            }
+        }
+    }
+}
+
+.logo {
+    margin-right: 10px;
 }

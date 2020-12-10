@@ -21,11 +21,14 @@ header {
 .upper-header {
     li {
         display: inline-block;
-        padding: 10px;
+        padding: $spacing;
         a {
             span {
                 color: $secondFontColor;
                 margin-left: 5px;
+                &:hover {
+                    border-bottom: 1px solid $fontColor;
+                }
             }
         }
     }
@@ -37,16 +40,22 @@ header {
     align-items: center;
     li {
         display: inline-block;
-        padding: 20px;
+        padding: $spacing * 2;
         a {
             color: $fontColor;
             .fas {
                 color: $secondFontColor;
             }
         }
+        &:hover, &:first-child {
+            background-color: $secondBgColor;
+            a {
+                color: black;
+            }
+        }
     }
 }
 
 .logo {
-    margin-right: 10px;
+    margin-right: $spacing;
 }

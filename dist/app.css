@@ -17,6 +17,10 @@ a {
   text-decoration: none;
 }
 
+h6 {
+  font-size: 15px;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -51,6 +55,10 @@ header {
   margin-left: 5px;
 }
 
+.upper-header li a span:hover {
+  border-bottom: 1px solid #fff;
+}
+
 .lower-header {
   display: flex;
   align-items: center;
@@ -69,7 +77,55 @@ header {
   color: #9d9d9d;
 }
 
+.lower-header li:hover,
+.lower-header li:first-child {
+  background-color: #f1f1f1;
+}
+
+.lower-header li:hover a,
+.lower-header li:first-child a {
+  color: black;
+}
+
 .logo {
   margin-right: 10px;
+}
+
+.upper-footer {
+  height: 300px;
+  width: 100%;
+  background-color: #f1f1f1;
+  display: flex;
+  align-items: center;
+}
+
+.upper-footer .lower {
+  display: flex;
+  flex-basis: 1200px;
+}
+
+.lower-footer {
+  height: 100px;
+  background-color: #101010;
+}
+
+.foot-menu {
+  width: calc(100% / 4);
+  padding: 0 20px;
+}
+
+.foot-menu ul {
+  margin-top: 10px;
+}
+
+.foot-menu li:hover {
+  text-decoration: underline;
+  -webkit-text-decoration-color: black;
+          text-decoration-color: black;
+}
+
+.foot-menu a {
+  font-size: 12px;
+  color: #9d9d9d;
 }
 

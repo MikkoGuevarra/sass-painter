@@ -1,0 +1,34 @@
+.upper-footer {
+    height: 300px;
+    width: 100%;
+    background-color: $secondBgColor;
+    display: flex;
+    align-items: center;
+    .lower {
+        display: flex;
+        flex-basis: 1200px
+    }
+}
+
+.lower-footer {
+    height: 100px;
+    background-color: $bgColor;
+}
+
+.foot-menu {
+    width: calc(100% / 4);
+    padding: 0 $spacing * 2;
+    ul {
+        margin-top: 10px;
+    }
+    li {
+        &:hover {
+            text-decoration: underline;
+            text-decoration-color: black;
+        }
+    }
+    a {
+        font-size: $menuSize;
+        color: $secondFontColor;
+    }
+}

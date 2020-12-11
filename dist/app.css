@@ -127,6 +127,24 @@ header {
 .social-icons ul li a {
   font-size: 30px;
 }
+.social-icons ul li #inst {
+  color: #e4405f;
+}
+.social-icons ul li #fb {
+  color: #3b5998;
+}
+.social-icons ul li #twit {
+  color: #1da1f2;
+}
+.social-icons ul li #yt {
+  color: #cd201f;
+}
+.social-icons ul li #pint {
+  color: #bd081c;
+}
+.social-icons ul li #paint {
+  color: #ff8d00;
+}
 
 /*!
  * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com

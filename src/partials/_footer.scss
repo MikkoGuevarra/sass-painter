@@ -9,11 +9,6 @@
     }
 }
 
-.lower-footer {
-    height: 100px;
-    background-color: $bgColor;
-}
-
 .foot-menu {
     width: calc(100% / 4);
     padding: 0 $spacing * 2;
@@ -60,6 +55,45 @@
             }
             #paint {
                 color: #ff8d00;
+            }
+        }
+    }
+}
+
+.lower-footer {
+    padding: 20px 0;
+    background-color: $bgColor;
+    .credits {
+        @include flex(row, flex-start, center);
+    }
+}
+
+.lower-left, .lower-right {
+    width: 50%;
+}
+
+.lower-left {
+    @include flex(row, flex-start, center);
+    img {
+        cursor: pointer;
+        margin-right: 40px;
+    }
+}
+
+.lower-right {
+    ul {
+        @include flex(row, space-between, center);
+        li {
+            font-size: $menuSize;
+            color: $fontColor;
+            a {
+                font-size: $menuSize;
+                color: $secondFontColor;
+                &:hover {
+                    color: $fontColor;
+                    text-decoration: underline;
+                    text-decoration-color: $fontColor;
+                }
             }
         }
     }

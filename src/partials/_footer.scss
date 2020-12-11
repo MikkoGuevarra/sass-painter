@@ -1,12 +1,11 @@
 .upper-footer {
-    height: 300px;
     width: 100%;
     background-color: $secondBgColor;
-    display: flex;
-    align-items: center;
     .lower {
         display: flex;
-        flex-basis: 1200px
+        flex-basis: 1200px;
+        padding: $spacing * 7 0;
+        position: relative;
     }
 }
 
@@ -30,5 +29,20 @@
     a {
         font-size: $menuSize;
         color: $secondFontColor;
+    }
+}
+
+.social-icons {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    ul {
+        li{
+            display: inline-block;
+            padding: $spacing $spacing;
+            a {
+                font-size: 30px;
+            }
+        }
     }
 }

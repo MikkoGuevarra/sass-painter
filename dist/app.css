@@ -8,7 +8,7 @@
 body {
   font-family: "Andika New Basic", sans-serif;
   font-size: 14px;
-  color: #fff;
+  color: red;
 }
 
 ul {
@@ -43,7 +43,7 @@ h6 {
 
 header {
   height: 100px;
-  background-color: #101010;
+  background-color: gold;
 }
 
 .upper-header, .lower-header {
@@ -64,11 +64,11 @@ header {
   padding: 10px;
 }
 .upper-header li a span {
-  color: #9d9d9d;
+  color: pink;
   margin-left: 5px;
 }
 .upper-header li a span:hover {
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid red;
 }
 
 .lower-header {
@@ -80,13 +80,13 @@ header {
   padding: 20px;
 }
 .lower-header li a {
-  color: #fff;
+  color: red;
 }
 .lower-header li a .fas {
-  color: #9d9d9d;
+  color: pink;
 }
 .lower-header li:hover, .lower-header li:first-child {
-  background-color: #f1f1f1;
+  background-color: #674563;
 }
 .lower-header li:hover a, .lower-header li:first-child a {
   color: black;
@@ -118,7 +118,7 @@ header {
   font-size: 16px;
 }
 .left-jumbo ul li .fas {
-  color: #9d9d9d;
+  color: pink;
   margin-right: 5px;
 }
 
@@ -144,7 +144,7 @@ header {
 }
 #download .dl-icon .fas {
   font-size: 24px;
-  color: #fff;
+  color: red;
 }
 
 .ads {
@@ -155,7 +155,7 @@ header {
 .ad-window {
   width: 400px;
   height: 420px;
-  background-color: #101010;
+  background-color: gold;
 }
 
 .top-ad {
@@ -164,11 +164,11 @@ header {
   padding: 30px 20px;
 }
 .top-ad p {
-  color: #9d9d9d;
+  color: pink;
 }
 .top-ad button {
   margin-top: 20px;
-  color: #fff;
+  color: red;
   background-color: #009cff;
   padding: 10px 50px;
   border-color: #009cff;
@@ -512,7 +512,7 @@ header {
 }
 .upper-footer {
   width: 100%;
-  background-color: #f1f1f1;
+  background-color: #674563;
 }
 .upper-footer .lower {
   display: flex;
@@ -535,7 +535,7 @@ header {
 }
 .foot-menu a {
   font-size: 12px;
-  color: #9d9d9d;
+  color: pink;
 }
 
 .social-icons {
@@ -571,7 +571,7 @@ header {
 
 .lower-footer {
   padding: 20px 0;
-  background-color: #101010;
+  background-color: gold;
 }
 .lower-footer .credits {
   display: flex;
@@ -603,17 +603,17 @@ header {
 }
 .lower-right ul li {
   font-size: 12px;
-  color: #fff;
+  color: red;
 }
 .lower-right ul li a {
   font-size: 12px;
-  color: #9d9d9d;
+  color: pink;
 }
 .lower-right ul li a:hover {
-  color: #fff;
+  color: red;
   text-decoration: underline;
-  -webkit-text-decoration-color: #fff;
-          text-decoration-color: #fff;
+  -webkit-text-decoration-color: red;
+          text-decoration-color: red;
 }
 
 /*!

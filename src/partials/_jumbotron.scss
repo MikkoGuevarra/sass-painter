@@ -1,0 +1,104 @@
+#jumbotron {
+    background: url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg');
+    background-position-x: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: $spacing * 4 0;
+}
+
+.jumb-cont {
+    position: relative;
+}
+
+.left-jumbo {
+    padding-top: $spacing * 5;
+    ul {
+        margin-top: 20px;
+        li {
+            font-size: 16px;
+            .fas {
+                color: $secondFontColor;
+                margin-right: 5px;
+            }
+        }
+    }
+}
+
+#download {
+    width: 250px;
+    padding: 10px 20px;
+    background-color: #666;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: $spacing * 3;
+    color: white;
+    p:first-child {
+        font-weight: bold;
+    }
+    .dl-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+        border-left: 1px solid white;
+        .fas {
+            font-size: 24px;
+            color: $fontColor;
+        }
+    }
+}
+
+.ads {
+    position: absolute;
+    right: 0;
+}
+.ad-window {
+    width: 400px;
+    height: 420px;
+    background-color: $bgColor;
+}
+
+.top-ad {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+    p {
+        color: $secondFontColor;
+    }
+    button {
+        margin-top: $spacing*2;
+        color: $fontColor;
+        background-color: #009cff;
+        padding: $spacing $spacing * 5;
+        border-color: #009cff;
+    }
+}
+
+.bottom-ad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.limit-offer {
+    width: 90%;
+    height: 100px;
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+    p {
+        color: black;
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+    .msg-offer {
+        font-size: $menuSize;
+        text-transform: none;
+    }
+    a {
+        color: #009cff;
+    }
+}
